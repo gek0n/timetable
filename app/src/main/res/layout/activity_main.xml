@@ -5,10 +5,11 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical">
-    <RelativeLayout
+
+    <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/main_content"></RelativeLayout>
+        android:id="@+id/main_content"></ListView>
 
     <ListView
         android:layout_width="300dp"
@@ -17,4 +18,13 @@
         android:background="#FFFFFF"
         android:choiceMode="singleChoice"
         android:layout_gravity="start"></ListView>
+
+    <ListView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_sliding_menu2"
+        android:background="#FFFFFF"
+        android:choiceMode="singleChoice"
+        android:layout_gravity="end"></ListView>
+
 </android.support.v4.widget.DrawerLayout>
